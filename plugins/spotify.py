@@ -892,7 +892,7 @@ class SpotifyDownloader:
 
         await event.respond(message, parse_mode='html', buttons=artist_buttons)
 
-    @staticmethod
+    @dimension_4th
     async def send_music_lyrics(event):
         MAX_MESSAGE_LENGTH = 4096  # Telegram's maximum message length
         SECTION_HEADER_PATTERN = r'\[.+?\]'  # Pattern to match section headers
